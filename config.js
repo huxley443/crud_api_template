@@ -51,7 +51,7 @@ module.exports = function(app, express){
 	                if (authHeader == hash) { return next(); }
 
 	                res.send('auth header invalid', 403)
-	         	};
+	};
 
 
   return config;
